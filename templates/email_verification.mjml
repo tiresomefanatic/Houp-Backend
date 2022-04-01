@@ -1,0 +1,53 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text padding-bottom="0px" font-size="20px" font-family="helvetica">
+          <h1 style="margin-bottom: 0px; padding-bottom: 0px">
+            Welcome to houp, You are our top priority!
+          </h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-button
+          font-size="15px"
+          font-family="Helvetica"
+          background-color="#5C4EF8"
+          color="white"
+          align="left"
+          href="{{ url }}"
+        >
+          click here to confirm sign up
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FAFF14">
+      <mj-column>
+        <mj-image
+          src="https://opendoodles.s3-us-west-1.amazonaws.com/loving.png"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="15px" font-family="helvetica"
+          ><a
+            style="color: black; text-decoration: none"
+            href="https://houp.app/feedback"
+            >Click here to give feedback!</a
+          ></mj-text
+        >
+        <mj-text font-size="15px" color="black" font-family="helvetica"
+          ><span>Visit our website at</span>
+          <a
+            style="color: black; text-decoration: none; font-weight: bold"
+            href="https://houp.app"
+            >houp.app</a
+          ></mj-text
+        >
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
